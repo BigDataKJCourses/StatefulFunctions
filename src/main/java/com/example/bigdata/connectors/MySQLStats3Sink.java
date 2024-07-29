@@ -54,7 +54,7 @@ public class MySQLStats3Sink {
 
         JdbcConnectionOptions connectionOptions = new JdbcConnectionOptions.JdbcConnectionOptionsBuilder()
                 .withUrl(url)
-                .withDriverName("com.mysql.jdbc.Driver")
+                .withDriverName("com.mysql.cj.jdbc.Driver")
                 .withUsername(username)
                 .withPassword(password)
                 .build();
